@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Enables Copy & Paste in SI",
+    "description": "This extension runs a small script that enables copy & paste feature in some sites.",
+    "version": "0.1.0",
+    "author": {
+        "email": "vigneshbezawada3@gmail.com"
+      },
+    "content_scripts": [
+      {
+        "js": [
+          "content-script.js"
+        ],
+        "matches": [
+          "https://hive.smartinterviews.in/*"
+        ]
+      }
+    ]
+  }
